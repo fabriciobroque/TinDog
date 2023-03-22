@@ -1,0 +1,177 @@
+body{
+    font-family: 'Montserrat';
+}
+
+#title{
+    color: white;
+    background-color: #ff4c68;
+}
+
+.container-fluid{
+    padding: 3% 15% 7% ;
+}
+
+h1{
+    color: white;
+    color: white;
+    font-family: 'Golos Text', sans-serif;
+    font-size: 70px;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: 'Golos Text';
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: 'Golos Text' ;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Montserrat';
+    font-size: 2.5rem;
+}
+
+.navbar-item {
+    padding: 0 18px;
+    font-size: 1.5rem;
+}
+
+/* Download-Button */
+
+.Download-buttton{
+    margin: 5% 3% 5% 0;
+}
+
+/* Title-image */
+
+.title-image {
+    width: 25%;
+    position: absolute;
+    left: 60%;
+    
+}
+
+/* Features */
+
+#features {
+    padding: 7% 15%;
+    font-family: 'Montserrat';
+    text-align: center;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+   
+}
+
+.feature-box{
+    padding: 4.5%;
+}
+
+.feature-icons{
+    color: #ef8172;
+    padding-bottom: 1.5rem;
+    
+}
+
+.feature-icons:hover {
+    color: #ff4c68;
+}
+
+.feature-h3{
+    font-family: 'Golos Text';
+    font-size: 1.5rem;
+    
+    
+}
+
+.feature-p{
+    color: #8f8f8f;
+}
+
+/* Testimunials Section */
+
+#testimonials {
+    
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+
+}
+
+.testimonial-image {
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* Press section */
+
+#press {
+    text-align: center;
+    background-color: #ef8172;
+    padding-bottom: 5%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-c {
+    padding: 3% 2% ;
+}
+
+@media (max-width: 1000px) {
+    .title-image {
+        position: static;
+        width: 50%;
+    }
+
+    #title {
+        text-align: center;
+    }
+}
+
+/* Call to Action  */
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 100px ;
+
+}
+
+/* Footer */
+
+#footer {
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.social-icons{
+    padding:20px 10px ;
+}
