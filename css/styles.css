@@ -144,6 +144,10 @@ h3 {
     padding: 3% 2% ;
 }
 
+.h3-black {
+    color: black;
+}
+
 @media (max-width: 1000px) {
     .title-image {
         position: static;
